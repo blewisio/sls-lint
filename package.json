@@ -1,0 +1,22 @@
+{
+  "name": "sls-lint",
+  "version": "0.1.0",
+  "description": "serverless linter",
+  "main": "index.js",
+  "bin": {
+    "sls-lint": "index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "sls",
+    "serverless",
+    "lint"
+  ],
+  "author": "Brent Lewis",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
